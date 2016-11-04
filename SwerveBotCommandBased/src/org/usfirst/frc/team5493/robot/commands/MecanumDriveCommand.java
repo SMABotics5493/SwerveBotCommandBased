@@ -3,8 +3,13 @@ package org.usfirst.frc.team5493.robot.commands;
 import org.usfirst.frc.team5493.robot.Robot;
 
 public class MecanumDriveCommand extends edu.wpi.first.wpilibj.command.Command {
-	protected void initialize() {
+	
+	public MecanumDriveCommand(){
 		requires(Robot.mecanumDriveSystem);
+	}
+	
+	protected void initialize() {
+		//requires(Robot.mecanumDriveSystem);
 	}
 
 	protected void execute() {

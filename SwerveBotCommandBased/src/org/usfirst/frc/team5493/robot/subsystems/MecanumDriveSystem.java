@@ -22,7 +22,7 @@ public class MecanumDriveSystem extends Subsystem {
 	private final String RIGHT_BACK_NAME = "Right Back Motor";
 
 	public MecanumDriveSystem() {
-		this.leftFrontController = RobotMap.SpeedController(2, 2);
+		this.leftFrontController = RobotMap.SpeedController(RobotMap.MC_DRIVE_FRONT_LEFT, RobotMap.USE_PWM_TALON);
 		this.rightFrontController = RobotMap.SpeedController(4, 3);
 		this.leftBackController = RobotMap.SpeedController(3, 3);
 		this.rightBackController = RobotMap.SpeedController(5, 3);

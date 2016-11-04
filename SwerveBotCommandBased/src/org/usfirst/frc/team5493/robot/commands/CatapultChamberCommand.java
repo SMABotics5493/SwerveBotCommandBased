@@ -11,7 +11,7 @@ public class CatapultChamberCommand extends edu.wpi.first.wpilibj.command.Comman
 	}
 
 	protected void execute() {
-		Robot.catapultSystem.launch();
+		Robot.catapultSystem.chamber();
 	}
 
 	protected boolean isFinished() {

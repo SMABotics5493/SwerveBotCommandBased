@@ -29,6 +29,7 @@ public class RobotMap {
 	public static final int USE_PWM_VICTOR = 3;
 	public static final int USE_PWM_JAGUAR = 4;
 	public static final int JOY_DRIVER_STICK = 0;
+	public static final int JOYBTN_TRIGGER = 1;
 	public static final int COMPRESSOR_CATAPULT = 0;
 	public static final int SOLENOID_CATAPULT_FORWARD = 7;
 	public static final int SOLENOID_CATAPULT_REVERSE = 4;
